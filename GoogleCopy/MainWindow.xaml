@@ -1,0 +1,26 @@
+﻿<Window x:Class="GoogleCopy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleCopy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox TextWrapping="Wrap" Text="lets find something" Margin="298,272,298,140"/>
+        <Label Content="Google" Margin="282,152,282,167" FontSize="72"/>
+        <Button Content="Search" Margin="320,309,400,104" RenderTransformOrigin="0.588,-0.472"/>
+        <Button Content="Get Lucky" Margin="405,309,320,104"/>
+        <Button Content="Mail" Margin="610,10,110,400"/>
+        <Button Content="Pictures" Margin="704,10,10,400"/>
+        <Label Content="Ukraine" Margin="23,352,617,50" FontSize="16"/>
+        <Label Content="About Google" Margin="23,389,664,13" FontSize="16"/>
+        <Label Content="Advert" Margin="141,389,558,13" RenderTransformOrigin="0.5,0.5" FontSize="16">
+        </Label>
+        <Label Content="For Business" Margin="205,389,460,12" RenderTransformOrigin="0.5,0.5" FontSize="16">
+        </Label>
+        <Label Content="How Google works" Margin="320,389,320,13" FontSize="16"/>
+        <Label Content="Settings" Margin="704,389,0,13" FontSize="16"/>
+        <Label Content="Conitions" Margin="610,389,96,13" FontSize="16"/>
+    </Grid>
+</Window>
